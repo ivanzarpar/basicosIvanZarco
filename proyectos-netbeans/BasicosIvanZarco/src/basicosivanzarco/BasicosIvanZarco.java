@@ -11,11 +11,29 @@ package basicosivanzarco;
  */
 public class BasicosIvanZarco {
 
-    /**
-     * @param args the command line arguments
+   /**
+     * Método para mostrar ejemplos de tipos numericos.
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void logicos() {
+
+        //Estos son los tipos básicos
+        boolean bueno;
+        int a;
+        int b;
+
+        //Ejemplos de asignación de valores a las variables de tipos básicos
+        bueno = true;
+        a = 5;
+        b = 4;
+
+        if (a > b){
+        //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        
+       
+        System.out.println(bueno);
     }
-    
+    }
+     public static void main(String[] args) {
+        logicos();  // Llamada al método
+    }
 }
