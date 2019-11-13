@@ -12,7 +12,7 @@ package basicosivanzarco;
 public class BasicosIvanZarco {
 
    /**
-     * Método para mostrar ejemplos de tipos numericos.
+     * Método para mostrar ejemplos de tipo lógico.
      */
     public static void logicos() {
 
@@ -27,7 +27,7 @@ public class BasicosIvanZarco {
         b = 4;
 
         if (a > b){
-        //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        //Mostrar en pantalla el contendido siempre que se cumpla la condición.
         
        
         System.out.println(bueno);
