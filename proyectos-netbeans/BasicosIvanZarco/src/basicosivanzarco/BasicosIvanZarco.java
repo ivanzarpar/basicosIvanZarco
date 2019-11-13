@@ -10,12 +10,23 @@ package basicosivanzarco;
  * @author ivan_
  */
 public class BasicosIvanZarco {
+public static void cadenas() {
 
-    /**
-     * @param args the command line arguments
-     */
+        String palabrita;
+        
+        
+        palabrita = "hola";
+        
+        
+        
+        System.out.print("Mi palabrita es: ");
+        System.out.println(palabrita);
+
+        
+       
+    }
     public static void main(String[] args) {
-        // TODO code application logic here
+       cadenas();  
     }
     
 }
